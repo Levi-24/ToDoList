@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+
+    align-items: center;
+}
+
+.list-container{
+    background-color: ivory;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+    flex-flow: column;
+}
+.save{
+    background-color: ivory;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+    flex-flow: column;
+    justify-content: center;
+}
+
+p{
+    flex-flow: column;
+}
+
+h1, h2{
+    text-align: center;
+}
+
